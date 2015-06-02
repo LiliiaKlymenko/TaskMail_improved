@@ -17,7 +17,7 @@ public class ComposeMailHelper {
         Page.InitPage(composeMailPage);
         composeMailPage.
                 fillRecipient(recipient).
-                fillSubject( subject).
+                fillSubject(subject).
                 fillMailText(mailText).
                 saveAsDraft();
         return this;
