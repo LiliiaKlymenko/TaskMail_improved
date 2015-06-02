@@ -13,7 +13,7 @@ public class MailBoxPage extends Page {
     @FindBy(xpath = "//div[2]/div/div/div/div[2]/div/div/div/div/div")
     private WebElement linkCreateNewMail;
 
-    @FindBy (xpath = ".//*[@id='gb']/div[1]/div[1]/div/div[4]/div[1]/a")
+    @FindBy (xpath = "//div[4]/div/a")
     private WebElement linkUserName;
 
     private BrowserAction action = new BrowserAction();
