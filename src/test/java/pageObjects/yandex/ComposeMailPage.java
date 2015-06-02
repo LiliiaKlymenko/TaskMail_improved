@@ -20,10 +20,10 @@ public class ComposeMailPage extends Page {
     @FindBy(xpath = "//div[6]/div/button")
     private WebElement buttonSaveInDrafts;
 
-    @FindBy(xpath = ".//*[@id='compose-send']")
+    @FindBy(xpath = "//div[2]/div/div/input")
     private WebElement recipientTextField;
 
-    @FindBy(xpath = ".//*[@id='nb-1']/span[1]")
+    @FindBy(xpath = "//div[3]/div[2]/a[3]/span[1]")
     private WebElement linkUserName;
 
     public static ComposeMailPage getCreateMailPage() {
